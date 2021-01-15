@@ -42,8 +42,8 @@ class HomeFragment : Fragment() {
     }
 
     private fun loadStudents() {
-        StudentListData.get().list().add(Student(1,"Student 1","Ratopul",21,"Male"))
-        StudentListData.get().list().add(Student(2,"vERONICA doN didi","Maitidevi",22,"Female"))
-        StudentListData.get().list().add(Student(3,"Student 3","Baneswor",20,"Male"))
+        StudentListData.get().list().add(Student(1,"Nitesh","Dhapasi Krishna Mandir",21,"Male"))
+        StudentListData.get().list().add(Student(2,"Superem Pandey","Maitidevi",22,"Female"))
+        StudentListData.get().list().add(Student(3,"Travis Scoot","Baneswor",20,"Male"))
     }
 }
